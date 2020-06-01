@@ -3,5 +3,60 @@
 @import 'fonts';
 
 body {
-    background-color: tomato;
+    background-color: $bodyColor;
+    color: $fontColor;
+}
+header {
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    margin: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    outline: none;
+}
+.btn:hover {
+    background: black;
+    color: white;
+}
+button,
+.submit {
+    padding: 25px 50px;
+    background-color: white;
+    border: 2px solid black;
+}
+.start-btn, 
+.next-btn {
+    padding: 10px 20px;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
 }

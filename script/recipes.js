@@ -1,4 +1,4 @@
-recipes = [
+ recipes = [
   {
     name: 'Alfredo Chicken Bake',
     link: 'https://tasty.co/recipe/alfredo-chicken-bake',
@@ -7,7 +7,7 @@ recipes = [
     dairyFree: false,
     glutenFree: false,
     refinedSugarFree: false,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Veggie Burgers',
@@ -17,7 +17,7 @@ recipes = [
     dairyFree: false,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Spicy Baked Fish Tacos',
@@ -27,7 +27,7 @@ recipes = [
     dairyFree: false,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Banana Ice Cream',
@@ -37,7 +37,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: '3-Ingredient Chocolate Fudge',
@@ -47,7 +47,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Savory Moong Dal Rice Crepes',
@@ -57,7 +57,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: '1-Pot Curried Chickpea Soup',
@@ -67,7 +67,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Easy 1-Pan Salmon Red Curry',
@@ -77,7 +77,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Gluten Free Pasta from Scratch',
@@ -87,7 +87,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Chickpea Kale Salad with Adobo Dressing',
@@ -97,7 +97,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'One Pan Potato Aloo Sabzi',
@@ -107,7 +107,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Thai Style Chicken Noodle Soup',
@@ -117,7 +117,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Black Bean Buddha Bowl with Lemon Tahini Dressing',
@@ -127,7 +127,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Spring Frittata with Leeks, Asparagus, and Sweet Potato',
@@ -137,7 +137,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Mayo-Free Deviled Eggs',
@@ -147,7 +147,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Green Chile Chicken Tamales',
@@ -157,7 +157,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Perfect Hardboiled Eggs',
@@ -167,7 +167,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Crispy Breaded Cauliflower Wings',
@@ -177,7 +177,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Gluten & Dairy Free Lasagna',
@@ -187,7 +187,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Gluten Free Peanut Butter Chocolate Chip Cookies',
@@ -197,7 +197,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Chinese Chicken Salad',
@@ -207,7 +207,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'One Pot Tuscan-Style Beef & Lentil Soup',
@@ -217,7 +217,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Savory Moong Dal Rice Crepes',
@@ -227,7 +227,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Vegan/GF Fudge Sweet Potato Brownies',
@@ -237,7 +237,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Roasted Broccoli Pasta Salad with Hemp Pasta',
@@ -247,7 +247,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Cozy Turmeric Porridge',
@@ -257,7 +257,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Breakfast Bowl',
@@ -267,7 +267,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Curried Cauliflower Lentil Soup',
@@ -277,7 +277,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Sautéed Kale with Lemon, Tahini, and Hemp Seeds',
@@ -287,7 +287,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Creamy Vegan Broccoli Salad',
@@ -297,7 +297,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'One Pot Tikka Masala',
@@ -307,7 +307,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Blender Banana Pancakes',
@@ -317,7 +317,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Savory Moong Dal Rice Crepes',
@@ -327,7 +327,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Almond Butter Dark Chocolate Snowballs',
@@ -337,7 +337,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'One Bowl Pumpkin Pie',
@@ -347,7 +347,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Almond Butter Dark Chocolate Snowballs',
@@ -357,7 +357,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: false,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'No Bake Vegan Chai Cheesecake',
@@ -367,7 +367,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Cranberry Pumpkin Steel Cut Oats',
@@ -377,7 +377,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Breakfast'
+    bldd: 'breakfast'
   },
   {
     name: 'Lemon & Herb Roasted Chicken',
@@ -387,7 +387,7 @@ recipes = [
     dairyFree: false,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Miso-Glazed Roasted Brussel Sprouts',
@@ -397,7 +397,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Vegan Chocolate Turtles',
@@ -407,7 +407,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'One Pot Pumpkin Black Bean Soup',
@@ -417,7 +417,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Mexican Chicken Burrito Bowl',
@@ -427,7 +427,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'One Pan Mexican Shredded Chicken',
@@ -437,7 +437,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'One Pot Sweet Potato Lentil Soup',
@@ -447,7 +447,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Peanut Butter Banana Chickpea Shake',
@@ -457,7 +457,7 @@ recipes = [
     dairyFree: true,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dessert'
+    bldd: 'dessert'
   },
   {
     name: 'Bacon Asparagus Pastry Twists',
@@ -467,7 +467,7 @@ recipes = [
     dairyFree: false,
     glutenFree: false,
     refinedSugarFree: false,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Baked Lobster Tails',
@@ -477,7 +477,7 @@ recipes = [
     dairyFree: false,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Garlic Butter Steak',
@@ -487,7 +487,7 @@ recipes = [
     dairyFree: false,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Bacon Avocado Caesar Salad',
@@ -497,7 +497,7 @@ recipes = [
     dairyFree: false,
     glutenFree: false,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   },
   {
     name: 'Creamy Tuscan Chicken',
@@ -507,149 +507,15 @@ recipes = [
     dairyFree: false,
     glutenFree: true,
     refinedSugarFree: true,
-    bldd: 'Dinner'
+    bldd: 'dinner'
   }
-];
+]
 
-const questions = [
-  {
-    question: 'Are you vegetarian?',
-    answers: [true, false]
-  },
-  {
-    question: 'Are you vegan?',
-    answers: [true, false]
-  },
-  {
-    question: 'Do you fuck with added sugar?',
-    answers: [true, false]
-  },
-  {
-    question: 'Does gluten mess you up?',
-    answers: [true, false]
-  },
-  {
-    question: 'Does dairy make you shit your pants?',
-    answers: [true, false]
-  }
-];
-
-const answers = {
-  question1Answer: '',
-  question2Answer: '',
-  question3Answer: '',
-  question4Answer: '',
-  question5Answer: '',
-  };
-
-const buttonClick = document.querySelectorAll('.btn');
-const buttonClickYes = document.getElementById("yes");
-const buttonClickNo = document.getElementById("no");
-const startButton = document.getElementById('start-btn');
-const questionContainer = document.getElementById('question-container');
-const questionElement = document.getElementById('question');
-const recipeContainer = document.getElementById('recipe-container');
-const recipeElement = document.getElementById('recipe');
-
-///write a function to start the quiz (hide the start button, display first question)
-startButton.addEventListener('click', startGame)
-function startGame() {
-  startButton.classList.add('hide');
-  questionContainer.classList.remove('hide');
-  questions.map((question) => {
-    questionElement.innerHTML = question.question
-  });
-};
-
-//write a function to move questions along, keeping track of answer values
-currentQuestionIndex = 0;
-let number = 1;
-buttonClick.forEach((button, i) => {
-  button.addEventListener('click', function() {
-    if (button.value === 'yes') {
-      console.log('yes');
-      currentQuestionIndex +=1
-      if (currentQuestionIndex === 1 & button.value === 'yes') {
-        answers.question1Answer = true;
-      }
-      if (currentQuestionIndex === 2 & button.value === 'yes') {
-        answers.question2Answer = true;
-      }
-      if (currentQuestionIndex === 3 & button.value === 'yes') {
-        answers.question3Answer = true;
-      }
-      if (currentQuestionIndex === 4 & button.value === 'yes') {
-        answers.question4Answer = true;
-      }
-      if (currentQuestionIndex === 5 & button.value === 'yes') {
-        answers.question5Answer = true;
-      }
-      console.log(currentQuestionIndex, answers.question1Answer, answers.question2Answer, answers.question3Answer, answers.question4Answer, answers.question5Answer)
-      displayNextQuestion();
+export default function veganRecipes () {
+  recipes.map(recipe => {
+    if (recipe.vegan === true) {
+      console.log(recipe.name)
     }
-    if (button.value === 'no') {
-      console.log('no')
-      currentQuestionIndex +=1
-      if (currentQuestionIndex === 1 & button.value === 'no') {
-        answers.question1Answer = false;
-      }
-      if (currentQuestionIndex === 2 & button.value === 'no') {
-        answers.question2Answer = false;
-      }
-      if (currentQuestionIndex === 3 & button.value === 'no') {
-        answers.question3Answer = false;
-      }
-      if (currentQuestionIndex === 4 & button.value === 'no') {
-        answers.question4Answer = false;
-      }
-      if (currentQuestionIndex === 5 & button.value === 'no') {
-        answers.question5Answer = false;
-      }
-      console.log(currentQuestionIndex, answers.question1Answer, answers.question2Answer, answers.question3Answer, answers.question4Answer, answers.question5Answer)
-      
-      displayNextQuestion();
-    }
-  });
-})
-
-let count = 0;
-function displayNextQuestion() { 
-    questionElement.innerHTML = questions[count].question
-    if (count === 4) {
-      questionContainer.classList.add('hide');
-      recipeContainer.classList.remove('hide');
-      count = 0;
-    }
-    count += 1;
-  }
-
-
-  
-  //to do 
-  //determine what the innerHTML of the next question is
- 
-  
-
-
-//write a function to move to next question from current question once answered
-// function to filter array of recipes to match search criteria 
-//shuffle array of recipes that match criteria
-///write a function to bring up only one shuffled recipe
-//write a function to reset quiz
-
-
-
-
-
-
-// randomizer function 
-function shuffle(array){
-  for (let i = array.length - 1; i > 0; i--){
-      let j = Math.floor(Math.random()* (i + 1))
-      let item = array[i]
-      array[i] = array[j]
-      array[j] = item
-  }
+  })
 }
-
 
