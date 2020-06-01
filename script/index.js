@@ -220,16 +220,6 @@ recipes = [
     bldd: 'Dinner'
   },
   {
-    name: 'Savory Moong Dal Rice Crepes',
-    link: 'https://minimalistbaker.com/savory-moong-dal-rice-crepes-dosa/',
-    vegetarian: true,
-    vegan: true,
-    dairyFree: true,
-    glutenFree: true,
-    refinedSugarFree: true,
-    bldd: 'Dessert'
-  },
-  {
     name: 'Vegan/GF Fudge Sweet Potato Brownies',
     link: 'https://minimalistbaker.com/fudgy-sweet-potato-brownies-v-gf/',
     vegetarian: true,
@@ -318,16 +308,6 @@ recipes = [
     glutenFree: true,
     refinedSugarFree: true,
     bldd: 'Breakfast'
-  },
-  {
-    name: 'Savory Moong Dal Rice Crepes',
-    link: 'https://minimalistbaker.com/savory-moong-dal-rice-crepes-dosa/',
-    vegetarian: true,
-    vegan: true,
-    dairyFree: true,
-    glutenFree: true,
-    refinedSugarFree: true,
-    bldd: 'Dessert'
   },
   {
     name: 'Almond Butter Dark Chocolate Snowballs',
@@ -508,6 +488,306 @@ recipes = [
     glutenFree: true,
     refinedSugarFree: true,
     bldd: 'Dinner'
+  },
+  {
+    name: 'One-Skillet Lemony Chicken with Fennel and Tomatoes',
+    link: 'https://www.bonappetit.com/recipe/one-skillet-lemony-chicken-with-fennel-and-tomatoes',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Steak Salad with Shallot Vinaigrette',
+    link: 'https://www.bonappetit.com/recipe/steak-salad-with-shallot-vinaigrette',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Pasta al Limone',
+    link: 'https://www.bonappetit.com/recipe/pasta-al-limone',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Simple Ribollita',
+    link: 'https://www.bonappetit.com/recipe/simple-ribollita',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Coconut Milk-Braised Chicken Legs',
+    link: 'https://www.bonappetit.com/recipe/coconut-milk-braised-chicken-legs',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Soy-Ginger Dinner Scramble',
+    link: 'https://www.bonappetit.com/recipe/soy-ginger-dinner-scramble',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Warm Chickpea Bowls with Lemony Yogurt',
+    link: 'https://www.bonappetit.com/recipe/warm-chickpea-bowls-with-lemony-yogurt',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Weeknight Beans on Toast',
+    link: 'https://www.bonappetit.com/recipe/weeknight-beans-on-toast',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Pan-Roasted Steak with Crispy Broccoli',
+    link: 'https://www.bonappetit.com/recipe/pan-roasted-steak-with-crispy-broccoli',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Chicken Schnitzel with Crunchy Salad',
+    link: 'https://www.bonappetit.com/recipe/chicken-schnitzel-with-crunchy-salad',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Sheet-Pan Chicken Meatballs and Charred Broccoli',
+    link: 'https://www.bonappetit.com/recipe/sheet-pan-chicken-meatballs-and-charred-broccoli',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Chicken and Rice Soup with Garlicky Chile Oil',
+    link: 'https://www.bonappetit.com/recipe/chicken-and-rice-soup-with-garlicky-chile-oil',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Brothy Pasta with Chickpeas',
+    link: 'https://www.bonappetit.com/recipe/brothy-pasta-with-chickpeas',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Spinach and Artichoke Melts',
+    link: 'https://www.bonappetit.com/recipe/spinach-and-artichoke-melts',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Mushroom Carbonara',
+    link: 'https://www.bonappetit.com/recipe/mushroom-carbonara',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Better-than-Takeout Stir-Fried Udon',
+    link: 'https://www.bonappetit.com/recipe/stir-fried-udon-with-pork',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: false,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Oven-Barbecued Chicken',
+    link: 'https://www.bonappetit.com/recipe/oven-barbecued-chicken',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Soy and Ginger Steamed Fish',
+    link: 'https://www.bonappetit.com/recipe/soy-and-ginger-steamed-fish',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'One-Skillet Chicken with Buttery Orzo',
+    link: 'https://www.bonappetit.com/recipe/one-skillet-chicken-with-buttery-orzo',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: true,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'One-Skillet Steak and Spring Veg with Spicy Mustard',
+    link: 'https://www.bonappetit.com/recipe/one-skillet-steak-and-spring-veg-with-spicy-mustard',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Grilled Crispy-Skinned Salmon with Whole Lemon-Sesame Sauce',
+    link: 'https://www.bonappetit.com/recipe/grilled-salmon-with-lemon-sesame-sauce',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'No-Fail Roast Chicken with Lemon and Garlic',
+    link: 'https://www.bonappetit.com/recipe/no-fail-roast-chicken-with-lemon-and-garlic',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Cheesy Cauliflower Pasta',
+    link: 'https://www.bonappetit.com/test-kitchen/inside-our-kitchen/article/roasted-cauliflower-pasta-breadcrumbs-pine-nuts',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Panko-Crusted Roast Chicken Thighs with Mustard and Thyme',
+    link: 'https://www.bonappetit.com/recipe/roast-chicken-and-carrots-with-mustard-and-thyme',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Pork and Bok Choy Stir-Fry',
+    link: 'https://www.bonappetit.com/recipe/pork-and-bok-choy-stir-fry',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Spaghetti Aglio e Olio with Lots of Kale',
+    link: 'https://www.bonappetit.com/recipe/spaghetti-aglio-e-olio-with-lots-of-kale',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Kimchi Udon with Scallions',
+    link: 'https://www.bonappetit.com/recipe/kimchi-udon-with-scallions',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Juicy Pan-Seared Pork Chops with Citrus Dressing',
+    link: 'https://www.bonappetit.com/recipe/pan-seared-pork-chops-with-citrus-dressing',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: false,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Fettuccine Alfredo',
+    link: 'https://www.bonappetit.com/recipe/fettuccine-alfredo',
+    vegetarian: true,
+    vegan: false,
+    dairyFree: false,
+    glutenFree: false,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
   }
 ];
 
@@ -521,7 +801,7 @@ const questions = [
     answers: [true, false]
   },
   {
-    question: 'Do you fuck with added sugar?',
+    question: 'Are you okay with a little refined sugar?',
     answers: [true, false]
   },
   {
@@ -542,17 +822,33 @@ const answers = {
   question5Answer: '',
   };
 
+const funnySell = [
+  `Why don't you whip up some fucking...`,
+  `How about a big fucking bowl of...`,
+  `Put on some fuckin' tunes, dance around your kitchen, and dig into some...`,
+  `Get in the zone and start working on some fucking...`,
+  `How about you try something new for once, like...`,
+  `Get your mind around these fuckin' `,
+  `Ooooooh baby it's fucking time for some... `
+]
+
+
+let randomNumber = Math.floor(Math.random() * 7);
 const buttonClick = document.querySelectorAll('.btn');
 const buttonClickYes = document.getElementById("yes");
 const buttonClickNo = document.getElementById("no");
 const startButton = document.getElementById('start-btn');
+const restartButton = document.getElementById('restart-btn');
 const questionContainer = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const recipeContainer = document.getElementById('recipe-container');
-const recipeElement = document.getElementById('recipe');
+const recipeElement = document.querySelector('.recipe');
+const sellLine = document.querySelector('.sell-line');
 
-///write a function to start the quiz (hide the start button, display first question)
-startButton.addEventListener('click', startGame)
+
+
+startButton.addEventListener('click', startGame);
+
 function startGame() {
   startButton.classList.add('hide');
   questionContainer.classList.remove('hide');
@@ -561,6 +857,9 @@ function startGame() {
   });
 };
 
+restartButton.addEventListener('click', function() {
+  window.location.reload(true);
+})
 //write a function to move questions along, keeping track of answer values
 currentQuestionIndex = 0;
 let number = 1;
@@ -579,7 +878,7 @@ buttonClick.forEach((button, i) => {
         answers.question3Answer = true;
       }
       if (currentQuestionIndex === 4 & button.value === 'yes') {
-        answers.question4Answer = true;
+        answers.question4Answer = false;
       }
       if (currentQuestionIndex === 5 & button.value === 'yes') {
         answers.question5Answer = true;
@@ -599,7 +898,7 @@ buttonClick.forEach((button, i) => {
         answers.question3Answer = false;
       }
       if (currentQuestionIndex === 4 & button.value === 'no') {
-        answers.question4Answer = false;
+        answers.question4Answer = true;
       }
       if (currentQuestionIndex === 5 & button.value === 'no') {
         answers.question5Answer = false;
@@ -621,38 +920,45 @@ function displayNextQuestion() {
     displayRecipe()
   }
 
-function displayRecipe() {
-  if (answers.question5Answer === true || answers.question5Answer === false) {
-    recipes.filter(recipe => {
-      recipe.dairyFree === answers.question1Answer;
-      // recipe.vegetarian === answers.question2Answer;
-      // recipe.vegan === answers.question3Answer;
-      // recipe.refinedSugarFree === answers.question4Answer;
-      // recipe.glutenFree === answers.question5Answer;
-      console.log(recipe,`dairy shit your pants? ${answers.question1Answer}`)
-    })
-  }
-}
-
-
-
-// function to filter array of recipes to match search criteria 
-///write a function to bring up only one shuffled recipe
-//write a function to reset quiz
-
-
-
-
-
-
-// shuffle array function 
 function shuffle(array){
   for (let i = array.length - 1; i > 0; i--){
-      let j = Math.floor(Math.random()* (i + 1))
-      let item = array[i]
-      array[i] = array[j]
-      array[j] = item
+    let j = Math.floor(Math.random()* (i + 1))
+    let item = array[i]
+    array[i] = array[j]
+    array[j] = item
+    }
+  }
+  let a = document.createElement('a'); 
+   
+
+function displayRecipe() {
+  if (answers.question5Answer === true || answers.question5Answer === false) {
+    const answer = recipes.filter(recipe => {
+      if (recipe.dairyFree === answers.question1Answer && recipe.vegetarian === answers.question2Answer && recipe.vegan === answers.question3Answer && recipe.refinedSugarFree === answers.question4Answer && recipe.glutenFree === answers.question5Answer) {
+        return recipe
+      }
+    })
+    shuffle(answer)
+    let answerChop = answer.slice(0,1)
+    console.log(answerChop)
+    if (answerChop.length === 0) {
+      console.log('no')
+      recipeElement.innerHTML = `No recipes match your criteria. Fuck. <br>(But we're working on it)`;
+      restartButton.classList.remove('hide');
+
+    } else {
+      sellLine.innerHTML = funnySell[(randomNumber)]
+      recipeElement.innerHTML = answerChop[0].name;
+      a.href = answerChop[0].link;  
+      a.title = answerChop[0].name;  
+      let link = document.createTextNode(`${answerChop[0].name}`); 
+      a.appendChild(link);  
+      document.body.appendChild(a); 
+      restartButton.classList.remove('hide');
+    }
   }
 }
+
+
 
 
