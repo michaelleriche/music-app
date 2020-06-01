@@ -584,7 +584,6 @@ buttonClick.forEach((button, i) => {
       if (currentQuestionIndex === 5 & button.value === 'yes') {
         answers.question5Answer = true;
       }
-      console.log(currentQuestionIndex, answers.question1Answer, answers.question2Answer, answers.question3Answer, answers.question4Answer, answers.question5Answer)
       displayNextQuestion();
     }
     if (button.value === 'no') {
@@ -604,9 +603,7 @@ buttonClick.forEach((button, i) => {
       }
       if (currentQuestionIndex === 5 & button.value === 'no') {
         answers.question5Answer = false;
-      }
-      console.log(currentQuestionIndex, answers.question1Answer, answers.question2Answer, answers.question3Answer, answers.question4Answer, answers.question5Answer)
-      
+      }    
       displayNextQuestion();
     }
   });
@@ -621,19 +618,25 @@ function displayNextQuestion() {
       count = 0;
     }
     count += 1;
+    displayRecipe()
   }
 
+function displayRecipe() {
+  if (answers.question5Answer === true || answers.question5Answer === false) {
+    recipes.filter(recipe => {
+      recipe.dairyFree === answers.question1Answer;
+      // recipe.vegetarian === answers.question2Answer;
+      // recipe.vegan === answers.question3Answer;
+      // recipe.refinedSugarFree === answers.question4Answer;
+      // recipe.glutenFree === answers.question5Answer;
+      console.log(recipe,`dairy shit your pants? ${answers.question1Answer}`)
+    })
+  }
+}
 
-  
-  //to do 
-  //determine what the innerHTML of the next question is
- 
-  
 
 
-//write a function to move to next question from current question once answered
 // function to filter array of recipes to match search criteria 
-//shuffle array of recipes that match criteria
 ///write a function to bring up only one shuffled recipe
 //write a function to reset quiz
 
@@ -642,7 +645,7 @@ function displayNextQuestion() {
 
 
 
-// randomizer function 
+// shuffle array function 
 function shuffle(array){
   for (let i = array.length - 1; i > 0; i--){
       let j = Math.floor(Math.random()* (i + 1))
