@@ -227,9 +227,34 @@ input {
   font-family: 'Oswald', sans-serif;
 }
 
+body {
+  font-size: 25px;
+}
+
 h1 {
   font-size: 40px;
   font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+a {
+  font-style: none;
+  font-size: 25px;
+  color: black;
+  margin: 0 10px;
+}
+
+footer p {
+  margin-top: 180px;
+  font-size: 15px;
 }
 
 body {
@@ -241,6 +266,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100vw;
   height: 25vh;
   -webkit-box-pack: center;
@@ -275,6 +304,15 @@ main {
   margin: 10px;
   padding: 50px;
   border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .btn-grid {

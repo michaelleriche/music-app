@@ -1,4 +1,6 @@
-recipes = [
+import shuffle from './random.js';
+
+const recipes = [
   {
     name: 'Alfredo Chicken Bake',
     link: 'https://tasty.co/recipe/alfredo-chicken-bake',
@@ -788,7 +790,88 @@ recipes = [
     glutenFree: true,
     refinedSugarFree: true,
     bldd: 'Dinner'
-  }
+  },
+  {
+    name: 'Peanut Butter Cookie Bars',
+    link: 'https://www.loveandlemons.com/vegan-desserts/#wprm-recipe-container-44704',
+    vegetarian: true,
+    vegan: true,
+    dairyFree: true,
+    glutenFree: false,
+    refinedSugarFree: false,
+    bldd: 'Dessert'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+  {
+    name: 'Bacon-Wrapped Pork Tenderloin',
+    link: 'https://www.bonappetit.com/recipe/weeknight-porchetta',
+    vegetarian: false,
+    vegan: false,
+    dairyFree: true,
+    glutenFree: true,
+    refinedSugarFree: true,
+    bldd: 'Dinner'
+  },
+
 ];
 
 const questions = [
@@ -809,7 +892,7 @@ const questions = [
     answers: [true, false]
   },
   {
-    question: 'Does dairy make you shit your pants?',
+    question: 'Does dairy make your tummy rumble?',
     answers: [true, false]
   }
 ];
@@ -824,19 +907,17 @@ const answers = {
 
 const funnySell = [
   `Why don't you whip up some fucking...`,
-  `How about a big fucking bowl of...`,
-  `Put on some fuckin' tunes, dance around your kitchen, and dig into some...`,
-  `Get in the zone and start working on some fucking...`,
+  `How about a big bowl of...`,
+  `Put on some tunes, dance around your kitchen, and dig into some...`,
+  `Get in the zone and start working on some...`,
   `How about you try something new for once, like...`,
-  `Get your mind around these fuckin' `,
-  `Ooooooh baby it's fucking time for some... `
+  `Get your mind around a big plate of...`,
+  `Ooooooh baby it is the time for some... `
 ]
 
 
 let randomNumber = Math.floor(Math.random() * 7);
 const buttonClick = document.querySelectorAll('.btn');
-const buttonClickYes = document.getElementById("yes");
-const buttonClickNo = document.getElementById("no");
 const startButton = document.getElementById('start-btn');
 const restartButton = document.getElementById('restart-btn');
 const questionContainer = document.getElementById('question-container');
@@ -861,12 +942,11 @@ restartButton.addEventListener('click', function() {
   window.location.reload(true);
 })
 //write a function to move questions along, keeping track of answer values
-currentQuestionIndex = 0;
+let currentQuestionIndex = 0;
 let number = 1;
 buttonClick.forEach((button, i) => {
   button.addEventListener('click', function() {
     if (button.value === 'yes') {
-      console.log('yes');
       currentQuestionIndex +=1
       if (currentQuestionIndex === 1 & button.value === 'yes') {
         answers.question1Answer = true;
@@ -883,10 +963,10 @@ buttonClick.forEach((button, i) => {
       if (currentQuestionIndex === 5 & button.value === 'yes') {
         answers.question5Answer = true;
       }
+      console.log(answers.question1Answer,answers.question2Answer,answers.question3Answer,answers.question4Answer,answers.question5Answer)
       displayNextQuestion();
     }
     if (button.value === 'no') {
-      console.log('no')
       currentQuestionIndex +=1
       if (currentQuestionIndex === 1 & button.value === 'no') {
         answers.question1Answer = false;
@@ -903,6 +983,7 @@ buttonClick.forEach((button, i) => {
       if (currentQuestionIndex === 5 & button.value === 'no') {
         answers.question5Answer = false;
       }    
+      console.log(answers.question1Answer,answers.question2Answer,answers.question3Answer,answers.question4Answer,answers.question5Answer)
       displayNextQuestion();
     }
   });
@@ -920,30 +1001,48 @@ function displayNextQuestion() {
     displayRecipe()
   }
 
-function shuffle(array){
-  for (let i = array.length - 1; i > 0; i--){
-    let j = Math.floor(Math.random()* (i + 1))
-    let item = array[i]
-    array[i] = array[j]
-    array[j] = item
-    }
-  }
-  let a = document.createElement('a'); 
-   
 
-function displayRecipe() {
-  if (answers.question5Answer === true || answers.question5Answer === false) {
-    const answer = recipes.filter(recipe => {
-      if (recipe.dairyFree === answers.question1Answer && recipe.vegetarian === answers.question2Answer && recipe.vegan === answers.question3Answer && recipe.refinedSugarFree === answers.question4Answer && recipe.glutenFree === answers.question5Answer) {
-        return recipe
-      }
-    })
+  let a = document.createElement('a'); 
+
+  function displayRecipe() {
+    if (answers.question5Answer === true || answers.question5Answer === false) {
+      const answer = recipes.filter(recipe => {
+        //dairy
+        if (answers.question1Answer === true && recipe.dairyFree === true) {
+          return recipe;
+        } else if (answers.question1Answer === false) {
+          return recipe;
+        }//vegetarian
+        if (answers.question2Answer === true  && recipe.vegetarian === true) {
+          return recipe;
+        } else if (answers.question2Answer === false) {
+          return recipe;
+        } //vegan
+        if (answers.question3Answer === true  && recipe.vegan === true) {
+          return recipe;
+        } else if (answers.question3Answer === false) {
+          return recipe;
+        } // sugar
+        if (answers.question4Answer === false  && recipe.refinedSugarFree === true) {
+          return recipe;
+        } else if (answers.question4Answer === true) {
+          return recipe;
+        } // gluten
+        if (answers.question5Answer === true  && recipe.glutenFree === true) {
+          return recipe;
+        } else if (answers.question5Answer === false) {
+          return recipe;
+        }
+      });
+
+
+
     shuffle(answer)
+
+
     let answerChop = answer.slice(0,1)
-    console.log(answerChop)
     if (answerChop.length === 0) {
-      console.log('no')
-      recipeElement.innerHTML = `No recipes match your criteria. Fuck. <br>(But we're working on it)`;
+      recipeElement.innerHTML = `No recipes match your criteria. Fuck <br>(But we're working on it)`;
       restartButton.classList.remove('hide');
 
     } else {
@@ -951,13 +1050,17 @@ function displayRecipe() {
       recipeElement.innerHTML = answerChop[0].name;
       a.href = answerChop[0].link;  
       a.title = answerChop[0].name;  
-      let link = document.createTextNode(`${answerChop[0].name}`); 
+      let link = document.createTextNode(`(Click here for recipe)`); 
       a.appendChild(link);  
-      document.body.appendChild(a); 
+      // document.body.appendChild(a); 
+      document.querySelector('.recipe').appendChild(a).target = "_blank";
       restartButton.classList.remove('hide');
     }
   }
 }
+
+
+
 
 
 

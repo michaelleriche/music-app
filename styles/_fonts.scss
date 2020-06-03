@@ -3,7 +3,27 @@ body,
 input {
   font-family: 'Oswald', sans-serif;
 }
+body {
+  font-size: 25px;
+}
 h1 {
   font-size: 40px;
   font-weight: 700;;
+}
+h2 {
+  margin-top: 20px;
+}
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+a {
+  font-style: none;
+  font-size: 25px;
+  color: black;
+  margin: 0 10px;
+}
+footer p {
+  margin-top: 180px;
+  font-size: 15px;
 }
